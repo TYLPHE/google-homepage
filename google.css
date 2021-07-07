@@ -30,7 +30,6 @@ a:hover{
 }
 
 #toprightsection{
-    z-index: 987;
     float: right;
     min-width: 165px;
     padding-left: 30px;
@@ -41,10 +40,7 @@ a:hover{
     margin-right: 0 !important;
     white-space: nowrap;
     line-height: normal;
-}
-
-#gmailimagesbar{
-    padding-right: 15px;
+    
 }
 
 #gmailhyperlinkbox{
@@ -52,13 +48,11 @@ a:hover{
     line-height: 24px;
     outline: none;
     vertical-align: middle;
+    padding-right: 15px;
 }
 
 #gmailhyperlink{
     color: black;
-}
-
-#gmailimageshyperlinks{
 }
 
 #imageshyperlinkbox{
@@ -66,6 +60,7 @@ a:hover{
     line-height: 24px;
     outline: none;
     vertical-align: middle;
+    padding-right: 15px;
 }
 
 #imageshyperlink{
@@ -90,32 +85,89 @@ a:hover{
     height: 30px;
     width: 30px;
     opacity: .55;
+    padding-right: 0px;
 }
 
 #signinbutton{
     display: inline-block;
     cursor: default;
-    border-color: #4285f4;
+    border-color: #4484f0;
     font-weight: bold;
     outline: none;
-    background-color: rgba(0, 0, 0, 0);
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-repeat: repeat;
+    border: 1px solid #4484f0;
     background-attachment: scroll;
     background-image: -webkit-linear-gradient(rgb(67, 135, 253), rgb(70, 131, 234));
-    background-size: auto;
-    background-origin: padding-box;
-    background-clip: border-box;
+    margin-left: 15px;
 }
 
 #signinhyperlink{
     color: white;
-}
+    line-height: 28px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 2px;
+ }
 
 #googlelogo{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 109px;
+    padding-top: 156px;
+    text-align: center;
+}
+
+#searchbar{
+    top: 26px;
+    position: relative;
+}
+
+#searchbarborder{
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow:none;
+    border-radius: 24px;
+    height: 44px;
+    width: 482px;
+    margin: 0 auto;
+}
+
+#searchbarcontents{
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+    flex-wrap: nowrap;
+    justify-self: stretch;
+    align-items: center;
+
+}
+
+#magnifyingglass{
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -8px;
+    line-height: 24px;
+    width: 24px;
+    color: #9aa0a6;
+    fill: currentColor;
+}
+
+#textbarbox{
+    color: transparent;
+    height: 44px;
+    width: 87%;
+}
+
+#textbar{
+    background-color: transparent;
+    border: none;
+    margin-top: 7px;
+    color: rgba(0,0,0, .87);
+    word-wrap: break-word;
+    outline: none;
+    font: 16px arial, sans-serif;
+    width: 100%;
+}
+
+#micbox{
+    height: 24px;
+    margin-top: -8px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
